@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4265DCBF1AB6FE2E00924EFA /* Leo.v3.7.6.bin in Resources */ = {isa = PBXBuildFile; fileRef = 4265DCBE1AB6FE2E00924EFA /* Leo.v3.7.6.bin */; };
+		42F98B491A8CBCA800AB277D /* FirmwareVersionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F98B481A8CBCA800AB277D /* FirmwareVersionViewController.m */; };
+		42FE3B301AA0516D0036D893 /* MisfitControllerListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FE3B2F1AA0516D0036D893 /* MisfitControllerListViewController.m */; };
+		42FE3B331AA051B50036D893 /* MisfitControllerConfigurationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FE3B321AA051B50036D893 /* MisfitControllerConfigurationViewController.m */; };
+		612288B719F90945001D8211 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 612288B619F90945001D8211 /* main.m */; };
+		612288BA19F90945001D8211 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 612288B919F90945001D8211 /* AppDelegate.m */; };
+		612288BD19F90945001D8211 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 612288BC19F90945001D8211 /* ViewController.m */; };
+		612288C019F90945001D8211 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 612288BE19F90945001D8211 /* Main.storyboard */; };
+		612288C219F90945001D8211 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 612288C119F90945001D8211 /* Images.xcassets */; };
+		612288D119F90945001D8211 /* MisfitBoltSDKDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 612288D019F90945001D8211 /* MisfitBoltSDKDemoTests.m */; };
+		61548E2C1A20FCC3005A88B3 /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61548E2B1A20FCC3005A88B3 /* Images-2.xcassets */; };
+		61A4D9B219FA13FE0095442A /* DeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A4D9B119FA13FE0095442A /* DeviceViewController.m */; };
+		61B4B8EF1A524FDC00530145 /* MultipleDevicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B4B8EE1A524FDC00530145 /* MultipleDevicesViewController.m */; };
+		BAC3090F1ABBBED300A286D0 /* MisfitBoltSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC3090E1ABBBED300A286D0 /* MisfitBoltSDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		612288CB19F90945001D8211 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 612288A919F90945001D8211 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 612288B019F90945001D8211;
+			remoteInfo = MisfitYeelightSDKDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6129293A1A4BBE7600591324 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4265DCBE1AB6FE2E00924EFA /* Leo.v3.7.6.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = Leo.v3.7.6.bin; sourceTree = "<group>"; };
+		42F98B471A8CBCA800AB277D /* FirmwareVersionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirmwareVersionViewController.h; sourceTree = "<group>"; };
+		42F98B481A8CBCA800AB277D /* FirmwareVersionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirmwareVersionViewController.m; sourceTree = "<group>"; };
+		42FE3B2E1AA0516D0036D893 /* MisfitControllerListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MisfitControllerListViewController.h; sourceTree = "<group>"; };
+		42FE3B2F1AA0516D0036D893 /* MisfitControllerListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MisfitControllerListViewController.m; sourceTree = "<group>"; };
+		42FE3B311AA051B50036D893 /* MisfitControllerConfigurationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MisfitControllerConfigurationViewController.h; sourceTree = "<group>"; };
+		42FE3B321AA051B50036D893 /* MisfitControllerConfigurationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MisfitControllerConfigurationViewController.m; sourceTree = "<group>"; };
+		612288B119F90945001D8211 /* MisfitBoltSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MisfitBoltSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		612288B519F90945001D8211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		612288B619F90945001D8211 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		612288B819F90945001D8211 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		612288B919F90945001D8211 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		612288BB19F90945001D8211 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		612288BC19F90945001D8211 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		612288BF19F90945001D8211 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		612288C119F90945001D8211 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		612288CA19F90945001D8211 /* MisfitBoltSDKDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MisfitBoltSDKDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		612288CF19F90945001D8211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		612288D019F90945001D8211 /* MisfitBoltSDKDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MisfitBoltSDKDemoTests.m; sourceTree = "<group>"; };
+		61548E2B1A20FCC3005A88B3 /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
+		61A4D9B019FA13FE0095442A /* DeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceViewController.h; sourceTree = "<group>"; };
+		61A4D9B119FA13FE0095442A /* DeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceViewController.m; sourceTree = "<group>"; };
+		61B4B8ED1A524FDC00530145 /* MultipleDevicesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipleDevicesViewController.h; sourceTree = "<group>"; };
+		61B4B8EE1A524FDC00530145 /* MultipleDevicesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultipleDevicesViewController.m; sourceTree = "<group>"; };
+		BAC3090E1ABBBED300A286D0 /* MisfitBoltSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MisfitBoltSDK.framework; path = ../../SDK/MisfitBoltSDK.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		612288AE19F90945001D8211 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAC3090F1ABBBED300A286D0 /* MisfitBoltSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		612288C719F90945001D8211 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		612288A819F90945001D8211 = {
+			isa = PBXGroup;
+			children = (
+				612288B319F90945001D8211 /* MisfitBoltSDKDemo */,
+				612288CD19F90945001D8211 /* MisfitBoltSDKDemoTests */,
+				61D385881A31842100697795 /* Frameworks */,
+				612288B219F90945001D8211 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		612288B219F90945001D8211 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				612288B119F90945001D8211 /* MisfitBoltSDKDemo.app */,
+				612288CA19F90945001D8211 /* MisfitBoltSDKDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		612288B319F90945001D8211 /* MisfitBoltSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				617B32D31A122D990061503F /* Bin */,
+				612288B819F90945001D8211 /* AppDelegate.h */,
+				612288B919F90945001D8211 /* AppDelegate.m */,
+				612288BB19F90945001D8211 /* ViewController.h */,
+				612288BC19F90945001D8211 /* ViewController.m */,
+				612288BE19F90945001D8211 /* Main.storyboard */,
+				612288C119F90945001D8211 /* Images.xcassets */,
+				612288B419F90945001D8211 /* Supporting Files */,
+				61A4D9B019FA13FE0095442A /* DeviceViewController.h */,
+				61A4D9B119FA13FE0095442A /* DeviceViewController.m */,
+				61548E2B1A20FCC3005A88B3 /* Images-2.xcassets */,
+				61B4B8ED1A524FDC00530145 /* MultipleDevicesViewController.h */,
+				61B4B8EE1A524FDC00530145 /* MultipleDevicesViewController.m */,
+				42F98B471A8CBCA800AB277D /* FirmwareVersionViewController.h */,
+				42F98B481A8CBCA800AB277D /* FirmwareVersionViewController.m */,
+				42FE3B2E1AA0516D0036D893 /* MisfitControllerListViewController.h */,
+				42FE3B2F1AA0516D0036D893 /* MisfitControllerListViewController.m */,
+				42FE3B311AA051B50036D893 /* MisfitControllerConfigurationViewController.h */,
+				42FE3B321AA051B50036D893 /* MisfitControllerConfigurationViewController.m */,
+			);
+			path = MisfitBoltSDKDemo;
+			sourceTree = "<group>";
+		};
+		612288B419F90945001D8211 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				612288B519F90945001D8211 /* Info.plist */,
+				612288B619F90945001D8211 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		612288CD19F90945001D8211 /* MisfitBoltSDKDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				612288D019F90945001D8211 /* MisfitBoltSDKDemoTests.m */,
+				612288CE19F90945001D8211 /* Supporting Files */,
+			);
+			path = MisfitBoltSDKDemoTests;
+			sourceTree = "<group>";
+		};
+		612288CE19F90945001D8211 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				612288CF19F90945001D8211 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		617B32D31A122D990061503F /* Bin */ = {
+			isa = PBXGroup;
+			children = (
+				4265DCBE1AB6FE2E00924EFA /* Leo.v3.7.6.bin */,
+			);
+			path = Bin;
+			sourceTree = "<group>";
+		};
+		61D385881A31842100697795 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAC3090E1ABBBED300A286D0 /* MisfitBoltSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		612288B019F90945001D8211 /* MisfitBoltSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 612288D419F90945001D8211 /* Build configuration list for PBXNativeTarget "MisfitBoltSDKDemo" */;
+			buildPhases = (
+				612288AD19F90945001D8211 /* Sources */,
+				612288AE19F90945001D8211 /* Frameworks */,
+				612288AF19F90945001D8211 /* Resources */,
+				6129293A1A4BBE7600591324 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MisfitBoltSDKDemo;
+			productName = MisfitYeelightSDKDemo;
+			productReference = 612288B119F90945001D8211 /* MisfitBoltSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		612288C919F90945001D8211 /* MisfitBoltSDKDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 612288D719F90945001D8211 /* Build configuration list for PBXNativeTarget "MisfitBoltSDKDemoTests" */;
+			buildPhases = (
+				612288C619F90945001D8211 /* Sources */,
+				612288C719F90945001D8211 /* Frameworks */,
+				612288C819F90945001D8211 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				612288CC19F90945001D8211 /* PBXTargetDependency */,
+			);
+			name = MisfitBoltSDKDemoTests;
+			productName = MisfitYeelightSDKDemoTests;
+			productReference = 612288CA19F90945001D8211 /* MisfitBoltSDKDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		612288A919F90945001D8211 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = com.misfit;
+				TargetAttributes = {
+					612288B019F90945001D8211 = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = WC64T22ANZ;
+					};
+					612288C919F90945001D8211 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 612288B019F90945001D8211;
+					};
+				};
+			};
+			buildConfigurationList = 612288AC19F90945001D8211 /* Build configuration list for PBXProject "MisfitBoltSDKDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 612288A819F90945001D8211;
+			productRefGroup = 612288B219F90945001D8211 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				612288B019F90945001D8211 /* MisfitBoltSDKDemo */,
+				612288C919F90945001D8211 /* MisfitBoltSDKDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		612288AF19F90945001D8211 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				612288C019F90945001D8211 /* Main.storyboard in Resources */,
+				4265DCBF1AB6FE2E00924EFA /* Leo.v3.7.6.bin in Resources */,
+				612288C219F90945001D8211 /* Images.xcassets in Resources */,
+				61548E2C1A20FCC3005A88B3 /* Images-2.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		612288C819F90945001D8211 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		612288AD19F90945001D8211 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61A4D9B219FA13FE0095442A /* DeviceViewController.m in Sources */,
+				612288BD19F90945001D8211 /* ViewController.m in Sources */,
+				42FE3B301AA0516D0036D893 /* MisfitControllerListViewController.m in Sources */,
+				612288BA19F90945001D8211 /* AppDelegate.m in Sources */,
+				612288B719F90945001D8211 /* main.m in Sources */,
+				42F98B491A8CBCA800AB277D /* FirmwareVersionViewController.m in Sources */,
+				42FE3B331AA051B50036D893 /* MisfitControllerConfigurationViewController.m in Sources */,
+				61B4B8EF1A524FDC00530145 /* MultipleDevicesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		612288C619F90945001D8211 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				612288D119F90945001D8211 /* MisfitBoltSDKDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		612288CC19F90945001D8211 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 612288B019F90945001D8211 /* MisfitBoltSDKDemo */;
+			targetProxy = 612288CB19F90945001D8211 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		612288BE19F90945001D8211 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				612288BF19F90945001D8211 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		612288D219F90945001D8211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		612288D319F90945001D8211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		612288D519F90945001D8211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../../SDK",
+				);
+				INFOPLIST_FILE = MisfitBoltSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = MisfitBoltSDKDemo;
+			};
+			name = Debug;
+		};
+		612288D619F90945001D8211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../../SDK",
+				);
+				INFOPLIST_FILE = MisfitBoltSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = MisfitBoltSDKDemo;
+			};
+			name = Release;
+		};
+		612288D819F90945001D8211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MisfitBoltSDKDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = MisfitBoltSDKDemoTests;
+			};
+			name = Debug;
+		};
+		612288D919F90945001D8211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MisfitBoltSDKDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = MisfitBoltSDKDemoTests;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		612288AC19F90945001D8211 /* Build configuration list for PBXProject "MisfitBoltSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				612288D219F90945001D8211 /* Debug */,
+				612288D319F90945001D8211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		612288D419F90945001D8211 /* Build configuration list for PBXNativeTarget "MisfitBoltSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				612288D519F90945001D8211 /* Debug */,
+				612288D619F90945001D8211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		612288D719F90945001D8211 /* Build configuration list for PBXNativeTarget "MisfitBoltSDKDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				612288D819F90945001D8211 /* Debug */,
+				612288D919F90945001D8211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 612288A919F90945001D8211 /* Project object */;
+}
